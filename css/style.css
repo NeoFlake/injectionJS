@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1em;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.container{
+  min-height: 500px;
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+#beautyForm{
+  width: 75%;
+  padding-bottom: 35px;
+  margin: 50px 0;
+  border: solid 1px black;
+}
+
+input[type="number"], input[type="submit"]{
+  display: block;
+}
+
+input[type="number"]{
+  margin: 30px auto 0;
+}
+
+input[type="submit"]{
+  margin: 30px auto 0;
+}
+
+#resultArea{
+  width: 75%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#resultArea h2{
+  width: 75%;
+  height: 50px;
+  font-size: 1.5em;
+  line-height: 2em;
+}
